@@ -1,0 +1,150 @@
+.intro-main{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 77vh;
+}
+
+.i-left{
+    width: 50%;
+    /* border: 2px solid black; */
+    padding: 100px 100px 
+
+}
+.i-left button a{
+    color: white;
+    text-decoration: none;
+}
+
+.i-name span{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.i-name p{
+    color: black;
+    padding-top: 2rem;
+}
+.i-button{
+    margin-top: 2rem;
+}
+
+.i-icon{
+    display: flex;
+    gap:2rem;
+    margin-top: 3rem;
+}
+.i-icon img{
+    width:2.5rem;
+} 
+.i-icon img:hover{
+    cursor: pointer;
+}
+
+
+.i-right{
+    width: 50%;
+    /* border: 2px solid green; */
+    padding: 2rem 5rem;
+}
+.i-right :nth-child(1){
+    width: 30rem;
+    position: absolute;
+}
+
+.i-right :nth-child(2){
+    width: 25rem;
+    position: relative;
+    z-index:-1;
+    position: absolute;
+}
+.i-right :nth-child(3){
+    z-index: 1;
+    position: relative;
+    left: 5rem;
+    transform: scale(1.4);
+    
+}
+.blur{
+    width: 20rem;
+    height: 10rem;
+    background-color: aqua;
+    position: relative;
+    left: -7rem;
+    top: -4rem;
+    z-index: -9;
+    filter: blur(150px);
+    border-radius: 50%;
+}
+.blur-purple{
+    width: 20rem;
+    height: 10rem;
+    background-color: black;
+    filter: blur(150px);
+    border-radius: 50%;
+  
+
+}
+@media (max-width: 768px) {
+    .intro-main {
+      flex-direction: column-reverse;
+      height: auto;
+      padding: 2rem;
+    }
+  
+    .i-left {
+      width: 100%;
+      padding: 2rem;
+      margin-top:-17rem;
+    }
+  
+    .i-right {
+      width: 100%;
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .i-icon {
+      justify-content: center;
+      margin-top: 2rem;
+    }
+  
+    .i-right img {
+      width: 100%;
+      max-width: 300px;
+      margin-top: 2rem;
+    }
+
+    .i-right :nth-child(3){
+        transform: scale(0.8);
+        top:-5rem;    
+        left:-1px;
+    }
+  
+    .blur {
+      /* display: none; */
+      width: 9rem;
+    }
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .i-right {
+            width: 80%;
+            padding: 2rem;
+            text-align: center;
+            /* border: 2px solid red; */
+        }
+                .i-right img {
+                    width: 100%;
+                   /* border: 2px solid green; */
+                    margin-top: 2rem;
+                }
+                                  .i-right :nth-child(3) {
+                                      transform: scale(0.7);
+                                      top: -10rem;
+                                      left: -1px;
+                                      /* border: 2px solid black; */
+                                  }
+
+  }

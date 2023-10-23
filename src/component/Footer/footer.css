@@ -1,0 +1,36 @@
+.sections-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: linear-gradient(360deg, #fdc50f 30%, #fb982f 70.36%);
+  margin-top: 3rem;
+  
+}
+
+/* Styles for individual sections */
+.about-us,
+.contact-us,
+.projects {
+  flex: 1;
+  padding: 20px;
+ margin: 10px 0px;
+  border-left: 1px solid white;
+}
+
+.about-us h3,h6{
+  color: white;
+}
+
+
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 16px;
+  margin: 10px 0;
+  color: white;
+  list-style-type: circle;
+}

@@ -1,0 +1,37 @@
+.resume-main{
+    width: 100%;
+    height: 80vh;
+    border: 2px solid red;
+    display: flex;
+    margin-top: 3rem;
+    
+}
+.r-left{
+    width: 35%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+
+.r-left ul li{
+    width: 100%;
+    border: 2px solid;
+    width: 15rem;
+    margin: 3rem 5rem;
+    padding: .6rem;
+    list-style-type: none;
+    border-radius: 20px;;
+
+}
+.r-right{
+    border: 2px solid yellow;
+    width: 100%;
+    overflow: scroll;
+}
+.education,.projects,.workhistory,.interest{
+    height: 79vh;
+    border: 2px solid green;
+    width: 100%;
+    padding: 3rem;
+}
+
+/* Apply the necessary styles */

@@ -1,0 +1,137 @@
+.services{
+  
+    height: auto;
+    margin-top: 5rem;
+    display: flex;
+    /* padding: 3rem; */
+}
+.s-left{
+  width: 40%;
+  /* border: 2px solid green; */
+  padding: 5rem;
+}
+.s-left span{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.s-left p{
+    color: gray;
+}
+.s-left .s-button{
+    /* width: 9rem; */
+    margin-top: 3rem;
+}
+.s-left .blur{
+    width: 20rem;
+    height: 10rem;
+    background-color: #ff3399;
+    top: 5rem;
+    filter: blur(150px);
+    border-radius: 50%;
+}
+.s-right{
+    width: 60%;
+    /* border: 2px solid green; */
+}
+
+.servce-card{
+    height: 230px;
+    /* width: 32%; */
+    border:8px solid var(--orangeCard);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0px;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    line-height: 18px;
+
+}
+
+.servce-card img{
+    width:3.5rem;
+    margin: auto;
+}
+
+.s-card-button{
+    width: 8rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    color: blue;
+    font-size: 1.3rem;
+    padding:5px;
+    border: none;
+    background-color: white;
+   
+   
+}
+
+.cards{
+    display: flex;
+
+}
+.cards .first-card{
+  width: 80%;
+  margin-top: 15rem;
+  margin-left: -5rem;
+}
+.cards .second-card{
+    width: 80%;
+    margin-left: 6rem;
+}
+
+.cards .third-card{
+    width: 80%;
+    margin-top: 23rem;
+    margin-left: -20rem;
+}
+
+
+@media (max-width: 768px) {
+    .services {
+      flex-direction: column;
+      margin-top: 2rem;
+    }
+  
+    .s-left {
+      width: 100%;
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .s-right {
+      width: 100%;
+      padding: 2rem;
+    }
+  
+    /* .cards {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center; 
+      }
+   */
+    .servce-card {
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      height: auto;
+     
+      
+    }
+  
+    .s-card-button {
+      width: 100%;
+      max-width: 120px;
+    }
+  
+    .s-left span {
+      font-size: 2.5rem;
+    }
+  }
+
+  
+  
+  
+  
+  
+  

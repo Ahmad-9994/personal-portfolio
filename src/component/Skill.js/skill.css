@@ -1,0 +1,148 @@
+/* Skill.css */
+.skill-wrapper{
+    /* border: 3px solid purple; */
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.skill-wrapper >:nth-child(1){
+    font-size: 3rem;
+    font-weight: bold;
+   
+}
+.skill-wrapper >:nth-child(2){
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.skills-main{
+    /* border: 2px solid red; */
+    /* margin-top: 8rem; */
+    display: flex;
+}
+
+.tecnical-part{
+    width: 50%;
+    padding: 0rem 4rem;
+}
+.professional-part{
+    width: 50%;
+  
+    /* border: 2px solid red; */
+    
+}
+.professionalSkill-container{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-evenly;
+}
+.skill {
+    margin-bottom: 1.5rem;
+
+  }
+  .single-circle{
+    /* border: 2px solid green; */
+    width: 27%
+  }
+  .skill-name {
+    font-weight: bold;
+
+  }
+  
+  .skill-bar {
+    background-color: #f2f2f2;
+    height: 13px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px gray;
+    margin-top: 4px;
+  }
+  
+  .skill-fill {
+    height: 100%;
+    background-color: var(--orange);
+
+  }
+  
+  .p-skill{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 5px 10px var(--orange);
+    /* border: 2px solid red; */
+  }
+  .p-skill-inner{
+    width: 140px;
+      height: 140px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    top: 0.65rem;
+    left: 0.65rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 2.6rem;
+    box-shadow: 0px 5px 10px var(--orange);
+    
+   
+    
+  }
+
+
+  /* Skill.css */
+
+/* Existing CSS rules */
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+
+    .skill-wrapper{
+        margin-top: 60rem;
+    }
+    
+    .skills-main {
+      flex-direction: column;
+    }
+  
+    .tecnical-part,
+    .professional-part {
+      width: 100%;
+      padding: 0 2rem; /* Adjust the padding as needed */
+    }
+  
+    .professional-part {
+      padding: 0 2rem; /* Adjust the padding as needed */
+      
+    }
+  
+    .professionalSkill-container {
+      gap: 2rem;
+      
+    }
+  
+    .p-skill {
+      width: 140px;
+      height: 140px;
+    }
+  
+    .p-skill-inner {
+      font-size: 1.7rem;
+      width: 80%;
+    height: 117px;
+      top: 0.7rem;
+      left: 0.9rem;
+      padding: 1.9rem;
+    }
+  
+    .skill-wrapper > :nth-child(1),
+    .skill-wrapper > :nth-child(2) {
+      font-size: 2.5rem;
+    }
+  }
+  
