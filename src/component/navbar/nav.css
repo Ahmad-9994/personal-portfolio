@@ -8,8 +8,9 @@
 
 }
 .navbar h2{
-  color: black;
+  color: orange;
   margin-left: 3rem;
+  font-weight: bold;
 }
 ul li{
   font-size: 1rem;

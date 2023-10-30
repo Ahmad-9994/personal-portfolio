@@ -37,6 +37,7 @@
       	  overflow: hidden;
       	  /* border: 2px solid #fb982f; */
           box-shadow: 0px 0px 10px gray;
+          
          
       	}
     
@@ -81,7 +82,7 @@
       /* border: 2px solid red; */
     }
         .contanir {
-          width: 80%;
+          width: 100%;
         }
 }
 
