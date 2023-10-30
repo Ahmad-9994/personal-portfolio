@@ -1,36 +1,116 @@
-.sections-container {
+
+
+.text-white {
+  color: white;
+}
+
+.bg-blue-900 {
+  background: orange;
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  margin: auto;
+  padding: 1rem;
+}
+
+.main-div-p1 {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  background: linear-gradient(360deg, #fdc50f 30%, #fb982f 70.36%);
-  margin-top: 3rem;
-  
+  padding: 1rem;
 }
 
-/* Styles for individual sections */
-.about-us,
-.contact-us,
-.projects {
-  flex: 1;
-  padding: 20px;
- margin: 10px 0px;
-  border-left: 1px solid white;
+.flex {
+  display: flex;
+
 }
 
-.about-us h3,h6{
-  color: white;
+.flex-col {
+  flex-direction: column;
+}
+.flex h1{
+  text-align: left;
 }
 
-
-
-ul {
-  list-style: disc;
-  padding-left: 20px;
+.h-20 {
+  height: 5rem;
 }
 
-li {
-  font-size: 16px;
-  margin: 10px 0;
-  color: white;
-  list-style-type: circle;
+.w-24 {
+  width: 6rem;
+}
+
+.md-mx-0 {
+  margin-right: 0 !important;
+}
+
+.md-max-w-xs {
+  max-width: 20rem !important;
+}
+
+.md-mt-10 {
+  margin-top: 2.5rem !important;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.md-col-span-2 {
+  grid-column: span 2;
+}
+
+.md-row {
+  flex-direction: row !important;
+}
+
+.md-border-t {
+  border-top: 1px solid white !important;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Additional styles for icons (Note: Add corresponding HTML elements for icons) */
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.main-div-p1{
+
+}
+
+@media (max-width: 900px) {
+.main-div-p1 {
+    flex-direction: column;
+   
+  }
+  .inner-div{
+
+    text-align: center;
+    align-items: center;
+  }
+
+
 }
