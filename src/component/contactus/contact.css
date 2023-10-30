@@ -101,7 +101,9 @@ textarea.form-control {
     display: none;
   }
  
-
+.c-button {
+  width: 100%;
+}
 
   .c-left {
     width: 100%;

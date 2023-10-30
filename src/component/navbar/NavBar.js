@@ -1,44 +1,47 @@
-import React from 'react'
+import React, { useState } from 'react';
 import "./nav.css"
 
-
-
 const NavBar = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const handleNavToggle = () => {
+    setIsNavOpen(!isNavOpen);
+  }
+
+  const closeNav = () => {
+    setIsNavOpen(false);
+  }
+
   return (
-
-    <nav class="navbar navbar-expand-lg navbar-light container-fluid">
-      
-        <h2>Portfolio</h2>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav ms-auto text-center">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#service">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skill">Skills</a>
-            </li>
-          </ul>
-
-          <a href='#contact' style={{color:"black"}}><button type="button" class="btn button">Contact us</button></a>
-        </div>
-    
+    <nav className={`navbar navbar-expand-lg navbar-light container-fluid ${isNavOpen ? 'open' : ''}`}>
+      <h2>Portfolio</h2>
+      <button className="navbar-toggler" type="button" onClick={handleNavToggle}>
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`} id="navbarNav">
+        <ul className="navbar-nav ms-auto text-center">
+          <li className="nav-item">
+            <a className="nav-link" aria-current="page" href="#" onClick={closeNav}>Home</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#experience" onClick={closeNav}>Experience</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#service" onClick={closeNav}>Service</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#projects" onClick={closeNav}>Projects</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#skill" onClick={closeNav}>Skills</a>
+          </li>
+        </ul>
+        <div className='conatct-button'>
+        <a href='#contact' style={{ color: "black" }} onClick={closeNav}><button type="button" className="btn button">Contact us</button></a>
+      </div>
+      </div>
     </nav>
-
-
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;

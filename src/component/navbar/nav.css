@@ -26,11 +26,15 @@ ul li{
 
 @media (max-width: 990px) {
   .button {
-      border-radius: 30px;
+      border-radius: 25px;
       margin-left: 0rem;
-      width: 70%;
+      width: 60%;
       margin: auto;
     }
+        .conatct-button{
+         
+          text-align: center;
+        }
 
 }
 /* 

@@ -39,15 +39,15 @@ const Contact = () => {
       <form id="contact-form" ref={form} onSubmit={sendEmail}>
     <div className="form-group">
         <label >Name</label>
-        <input type="text" className="form-control" name='name'/>
+        <input type="text" className="form-control" name='name' placeholder='your name'/>
     </div>
     <div className="form-group">
         <label >Email address</label>
-        <input type="email" className="form-control" aria-describedby="emailHelp" name='user_email'/>
+            <input type="email" className="form-control" aria-describedby="emailHelp" name='user_email' placeholder='your e-mail' />
     </div>
     <div className="form-group">
         <label >Message</label>
-        <textarea className="form-control" rows="5" name='message'></textarea>  
+        <textarea className="form-control" rows="5" name='message' placeholder='text here '></textarea>  
     </div>
     <div ><button type="submit" className="button c-button">Submit</button></div>
   
