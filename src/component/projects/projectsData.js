@@ -8,7 +8,7 @@
     },
     {
         title: "Ecommerce",
-        projectimage:"images/ecommercepic.png",
+        projectimage:"images/pi10.png",
         completed: "70%",
         describtion: "Elegant E-Commerce: Crafting a Stylish and User-Friendly Front-End Shopping Experience.",
         githublink:"dd",
@@ -40,7 +40,7 @@
     },
     {
         title: "TO-DO LIST",
-        projectimage:"images/TODO.png",
+        projectimage:"images/p7.png",
         completed: "90%",
         describtion: "React To-Do List: Organize, Add, Delete, Search Tasks for Efficient Productivity Management.",
         githublink:"https://github.com/Ahmad-9994/Todo-with-react.git",
