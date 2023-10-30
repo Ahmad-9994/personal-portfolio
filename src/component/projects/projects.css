@@ -9,7 +9,7 @@
     justify-content: space-around;
     gap: 1rem; /* Updated to 'gap' for better spacing */
     padding: 1rem;
-  
+  border: 2px solid red;
   }
   
   
@@ -30,13 +30,14 @@
 
       	.contanir {
       	  width: 30%;
-      	  height: auto;
+      	  height: 250px;
       	  border-radius: 10px;
       	  margin: 2rem auto;
       	  position: relative;
       	  overflow: hidden;
       	  /* border: 2px solid #fb982f; */
           box-shadow: 0px 0px 10px gray;
+         
       	}
     
       	.contanir img {
