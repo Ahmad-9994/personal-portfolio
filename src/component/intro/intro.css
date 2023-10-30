@@ -48,22 +48,8 @@
     padding: 2rem 5rem;
 }
 .i-right :nth-child(1){
-    width: 30rem;
-    position: absolute;
-}
+    width: 32rem;
 
-.i-right :nth-child(2){
-    width: 25rem;
-    position: relative;
-    z-index:-1;
-    position: absolute;
-}
-.i-right :nth-child(3){
-    z-index: 1;
-    position: relative;
-    left: 5rem;
-    transform: scale(1.4);
-    
 }
 .blur{
     width: 20rem;
@@ -112,15 +98,11 @@
     .i-right img {
       width: 100%;
       max-width: 300px;
-      margin-top: 2rem;
+   
+      margin-bottom: 2rem;
     }
 
-    .i-right :nth-child(3){
-        transform: scale(0.8);
-        top:-5rem;    
-        left:-1px;
-    }
-  
+
     .blur {
       /* display: none; */
       width: 9rem;
@@ -130,21 +112,15 @@
 
   @media (min-width: 768px) and (max-width: 1200px) {
     .i-right {
-            width: 80%;
+            width: 70%;
             padding: 2rem;
             text-align: center;
-            /* border: 2px solid red; */
+           
         }
-                .i-right img {
-                    width: 100%;
-                   /* border: 2px solid green; */
-                    margin-top: 2rem;
-                }
-                                  .i-right :nth-child(3) {
-                                      transform: scale(0.7);
-                                      top: -10rem;
-                                      left: -1px;
-                                      /* border: 2px solid black; */
-                                  }
-
+                 .i-right img {
+                     width: 100%;
+                     max-width: 400px;
+                    
+                 }
+                
   }

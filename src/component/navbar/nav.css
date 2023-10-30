@@ -1,14 +1,16 @@
-.container h2{
-  color: rgb(20, 19, 19);
-  font-size: 1.8rem;
-}
 
 
 .navbar{
-  position: sticky;
- 
-}
+      position: sticky;
+      top: 0;
+  z-index: 10;
+  background-color: white;
 
+}
+.navbar h2{
+  color: black;
+  margin-left: 3rem;
+}
 ul li{
   font-size: 1rem;
   font-weight:600;
@@ -18,7 +20,7 @@ ul li{
 .button{
   border-radius: 30px;
   margin-left: 7rem;
-  padding: 0.7rem 2rem;
+  padding: 0.5rem 2.5rem;
 }
 
 @media (max-width: 990px) {

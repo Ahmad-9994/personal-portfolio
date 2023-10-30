@@ -31,10 +31,8 @@ const Intro = () => {
 
    
 
-   <img src='images/Vector2.png'></img>
-   <img src='images/Vector1.png'></img>
-  <img src='images/boy.png'></img> 
-  
+   <img src='images/portfoliopic.png'></img>
+   
 
   <div className='blur'></div>
   
