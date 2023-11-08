@@ -17,8 +17,8 @@ return(
         <h2>(completed {e.completed})</h2>
         <p>{e.describtion}</p>
       <div className='card-buttons'>
-        <a href={e.githublink}><button className='git-button'>Gitub</button></a>
-        <a href={e.livedemo}> <button className='live-button'>live Demo</button></a>
+        <a href={e.githublink} target='blank'><button className='git-button'>Gitub</button></a>
+        <a href={e.livedemo} target='blank'> <button className='live-button'>live Demo</button></a>
        </div>
       </div>
   </div>
