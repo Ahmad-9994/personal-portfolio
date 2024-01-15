@@ -15,7 +15,7 @@ Aos.init({duration:2000})
     <div className='s-left'>
    <span>My Awesome</span><br></br>
    <span style={{color:"var(--orange)"}}>Services</span><br></br>
-    <p>Innovative AI essay rewriter helps you adjust tone and formality while retaining meaning. Explore fresh rewrite suggestions to diversify your language and level-up your writing</p>
+    <p>As a seasoned Frontend Developer skilled in React JS, Redux JS, and the latest web technologies, I specialize in crafting visually compelling and highly responsive user interfaces.</p>
     <button className='button s-button'>Download CV</button>
 
     <div className='blur'></div>

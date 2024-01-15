@@ -91,6 +91,7 @@
     .services {
       flex-direction: column;
       margin-top: 2rem;
+      
     }
   
     .s-left {
@@ -136,6 +137,27 @@
     }
   }
 
+    @media (min-width: 768px) and (max-width: 1200px) {
+      
+  .services {
+      flex-direction: column;
+      margin-top: 18rem;
+     
+    }
+        .s-left {
+          width: 70%;
+          /* border: 2px solid green; */
+          padding: 5rem;
+        }
+.servce-card {
+  width: 100%;
+  margin: 0 auto;
+  /* margin-bottom: 2rem; */
+  height: 270px;
+
+}
+               
+    }
   
   
   
