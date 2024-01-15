@@ -37,8 +37,8 @@
     /* border: 2px solid red; */
     flex-wrap: wrap;
     gap: 4rem;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+   
     margin-top: 2rem;
 
 }
@@ -47,8 +47,8 @@
 
   }
   .single-circle{
-    
-    width: 29%;
+   
+    width: 40%;
   
   }
   .single-circle h5{
@@ -130,7 +130,7 @@
     }
   
     .professionalSkill-container {
-      gap: 2rem;
+      gap: 1.8rem;
       
     }
   
