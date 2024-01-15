@@ -1,7 +1,7 @@
 /* Skill.css */
 .skill-wrapper{
-    /* border: 3px solid purple; */
-    margin-top: 8rem;
+    
+    /* margin-top: -18rem; */
     text-align: center;
     width: 100%;
 }
@@ -111,7 +111,7 @@
 @media (max-width: 768px) {
 
     .skill-wrapper{
-        margin-top: 60rem;
+        margin-top: 5rem;
     }
     
     .skills-main {
